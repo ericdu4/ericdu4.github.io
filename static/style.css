@@ -11,7 +11,7 @@ body {
 .site-banner {
   position: relative;
   width: 100%;
-  padding: 18px 20px;         /* vertical padding; horizontal controlled below */
+  padding: 20px 20px;         /* vertical padding; horizontal controlled below */
   box-sizing: border-box;
   background: linear-gradient(180deg,#f6fbff 0%,#eef7fb 100%);
   overflow: visible;
@@ -29,7 +29,7 @@ body {
 /* Make logo sit flush left of the viewport and vertically centered in the banner */
 .banner-logo-link {
   position: absolute;
-  left: 16px;                 /* distance from left edge of viewport */
+  left: 19px;                 /* distance from left edge of viewport */
   top: 50%;
   transform: translateY(-50%);
   display: block;
@@ -38,8 +38,8 @@ body {
 
 /* Logo size (adjust as needed) */
 .banner-image {
-  width: 140px;
-  height: 140px;
+  width: 170px;
+  height: 170px;
   object-fit: cover;
   border-radius: 8px;
   display: block;
@@ -366,6 +366,7 @@ h2.family {
   .banner-title { white-space: normal; font-size: 1.25rem; }
   .banner-text { width: 100%; }
 }
+
 
 
 
