@@ -18,10 +18,9 @@ body {
 .banner-image {
   width: 100%;
   height: auto;
-  display: block;
-  object-fit: cover;      /* keeps aspect ratio while filling width */
-  object-position: center;
-  max-height: 320px;      /* tweak this to control visible banner height */
+  object-fit: contain;      /* preserves whole image */
+  object-position: center;  /* change to adjust focal point */
+  max-height: 320px;        /* limit visible height */
 }
 
 /* Larger header on wide screens */
@@ -263,3 +262,4 @@ h2.family {
   .btn { min-width: 110px; padding: 9px 12px; font-size: 14px; }
   .cta-inner { gap: 10px; }
 }
+
