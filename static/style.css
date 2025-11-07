@@ -515,7 +515,7 @@ h2.family {
 
 .contact-card {
   transition: box-shadow 0.3s ease;
-  background: linear-gradient(180deg, #e6f7fb, #d0ebf9);
+  background: #191945;
 }
 
 .contact-card:hover {
@@ -588,6 +588,7 @@ h2.family {
   color: #0b8a7f;
   font-size: 0.95rem;
 }
+
 
 
 
