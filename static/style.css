@@ -648,6 +648,12 @@ h2.family {
   gap: 16px;
 }
 
+@media (max-width: 600px) {
+  .contact-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 
 
